@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="color_layout">#E0F2FA</color>				<!-- 界面主色 -->   
+    <color name="color_background">#FFFFFF</color>			<!-- 网关登陆四个字的颜色—— 白色-->
+    <color name="color_title">#448814</color>				<!-- 网关登录四个字的背景色 -->
+    <color name="color_text">#000000</color>				<!-- 其他字的颜色——黑色 -->
+    
+    <color name="color_success_background">#FFD700</color>	<!-- 登录成功之后网管登录的背景色 -->
+    <color name="color_success_layout">#FFE4E1</color>		<!-- 登陆成功之后主界面的颜色 -->
+</resources>

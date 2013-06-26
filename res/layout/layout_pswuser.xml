@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout_01"
+    android:background="@color/color_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/success"
+        android:background="@color/color_title"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dip"
+        android:textColor="@color/color_background"
+        android:text="@string/vpn_title" />
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/vpn_LinearLayout_001"
+        android:layout_width="255dip"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:gravity="center"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_text"
+            android:text="@string/vpn_username" />
+        <EditText
+            android:id="@+id/Username"
+            android:gravity="center"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:hint="@string/vpn_username_hint"
+            android:singleLine="true" 
+            android:text="@string/tianwj"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/vpn_LinearLayout_02"
+        android:layout_width="255dip"
+        android:layout_height="wrap_content" 
+		android:gravity="center" >
+        
+        <TextView
+            android:gravity="center"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_text"
+            android:text="@string/vpn_password" />
+        <EditText
+            android:id="@+id/Password"
+            android:gravity="center"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:text="@string/mima"
+            android:hint="@string/vpn_password_hint" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vpn_LinearLayout_03"
+        android:layout_width="255dip"
+        android:layout_height="wrap_content" 
+		android:gravity="center" >
+        
+    <Button
+        android:gravity="center"
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="@string/vpn_login"/>
+    
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/dakaiVPN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dakaiVPN" />
+
+    <Button
+        android:id="@+id/shutdownvpn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shutdownvpn" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update" />
+
+</LinearLayout>

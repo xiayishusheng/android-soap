@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">网关认证</string>				<!-- 程序名称 -->
+    
+    <string name="vpn_title">网关登录</string>				<!-- 主界面信息 -->
+    <string name="vpn_cert">证书用户</string>
+    <string name="vpn_none_cert">非证书用户</string>
+    <string name="vpn_username">用户名:</string>
+    <string name="vpn_username_hint">请输入用户名</string>
+    <string name="vpn_password">密    码:</string>
+    <string name="vpn_password_hint">请输入密码</string>
+    <string name="vpn_login">登录</string>
+    
+    <string name="vpn_menu_config">配置</string>				<!-- 菜单名称 -->
+    <string name="vpn_menu_modify">修改密码</string>
+    
+    <string name="vpn_menu_ipaddr">IP地址</string>
+    <string name="vpn_menu_port">认证端口</string>
+    <string name="vpn_menu_vpn">是否支持VPN</string>
+    <string name="vpn_menu_save">保存</string>
+    
+    <string name="vpn_menu_username">用户名</string>
+    <string name="vpn_menu_origpwd">原密码</string>
+    <string name="vpn_menu_newpwd">新密码</string>
+    <string name="vpn_menu_confirmpwd">确认密码</string>
+    <string name="vpn_menu_submit">提交</string>
+
+    <string name="dakaiVPN">打开VPN</string>
+    <string name="shutdownvpn">关闭VPN</string>
+    <string name="update">下载更新</string>
+    <string name="tianwj">tianwj</string>
+    <string name="mima">123456</string>
+</resources>
